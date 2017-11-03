@@ -1,0 +1,21 @@
+{
+    "short_name": "Ryan's PWA",
+    "name": "Ryan's PWA",
+    "icons": [
+      {
+        "src": "/public/icons/192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/public/icons/512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?homescreen=true",
+    "display": "standalone",
+    "background_color": "#333",
+    "theme_color": "#333",
+    "orientation": "portrait"
+}
