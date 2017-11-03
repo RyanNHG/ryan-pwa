@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const path = require('path')
+const port = process.env.PORT || 3000
 
 app.use('/public', express.static(path.join(__dirname, 'public')))
 
@@ -12,4 +13,4 @@ app.get('/', (_req, res) =>
   res.sendFile(path.join(__dirname, 'index.html'))
 )
 
-app.listen(3000, () => console.log(`Ready at http://localhost:3000`))
+app.listen(port, () => console.log(`Ready at http://localhost:${port}`))
