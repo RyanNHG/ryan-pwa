@@ -1,7 +1,7 @@
 // Configuration
 const config = {
   cache: {
-    name: 'ryans-pwa-1.0.3',
+    name: 'ryans-pwa-1.0.0',
     urlsToCache: [
       '/',
       '/service-worker.js',
