@@ -4,7 +4,7 @@
 var config = {
   cache: {
     name: 'ryans-pwa-1.0.0',
-    urlsToCache: ['/', '/service-worker.js', '/public/manifest.json', '/public/main.css', '/public/main.js', '/public/icons/192.png']
+    urlsToCache: ['/', '/public/manifest.json', '/public/main.css', '/public/main.js', '/public/icons/192.png']
   }
 };
 
